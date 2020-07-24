@@ -6,7 +6,7 @@ from city_scrapers_core.spiders import CityScrapersSpider
 class PittAlcosanSpider(CityScrapersSpider):
     name = "pitt_alcosan"
     agency = "ALCOSAN"
-    timezone = "America/Chicago"
+    timezone = "America/New_York"
     start_urls = ["https://www.alcosan.org/about-us/board-of-directors-meetings"]
 
     def parse(self, response):
